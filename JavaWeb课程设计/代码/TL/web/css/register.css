@@ -1,0 +1,66 @@
+body {
+    background: rgba(255, 255, 255, 0.787);
+    width: 100vh;
+    height: 100vh;
+    text-align: center;
+}
+
+#register-window {
+    width: 300px;
+    height: 400px;
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -150px;
+    text-align: center;
+    box-shadow: 2px 2px 10px #333333;
+    border-radius: 20px;
+}
+
+#content {
+    padding-top: 40px;
+}
+
+#register-title {
+    color: black;
+    font-size: 25px;
+}
+
+#register-btn {
+    text-align: center;
+    line-height: 34px;
+    width: 206px;
+    height: 37px;
+    background: black;
+    color: white;
+    margin-top: 10px;
+    display: inline-block;
+    cursor: pointer;
+    border: 0;
+    border-radius: 10px;
+}
+
+#register-error-info {
+    display: block;
+    visibility: hidden;
+    color: red;
+}
+
+#register-error-info.error {
+    visibility: visible;
+}
+
+#register-btn:active {
+    transform: scale(0.99);
+}
+
+#login {
+    display: block;
+    color: royalblue;
+    margin-top: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: underline;
+}
